@@ -50,7 +50,7 @@ while True:
     elif progSelection == 2:
         while True:
             while True:
-                inputFreq = input('Please enter a frequency (enter "0" to return to the menu): ')
+                inputFreq = input('Please enter a frequency in MHz (enter "0" to return to the menu): ')
                 try:
                     inputFreq = float(inputFreq)
                     if inputFreq < 0:
@@ -60,8 +60,8 @@ while True:
                 except:
                     print('\nERROR: Invalid Frequency\n')
 
-            if (inputFreq / 0.00625).is_integer() == 0:
-                print('\nInvalid Input Frequency. Please use a 6.25 KHz step.\n')
+            if (inputFreq / 0.0125).is_integer() == 0:
+                print('\nInvalid Input Frequency. Please use a 12.5 KHz step.\n')
 
             elif ((inputFreq >= 450.0) and (inputFreq < 455.0)) and ((inputFreq / 0.00625).is_integer()):
                 resultLCN = ((inputFreq - 450) / 0.0125) + 1
