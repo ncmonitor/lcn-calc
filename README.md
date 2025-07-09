@@ -1,4 +1,4 @@
-This python script allows users to quickly determine the corresponding frequency given an LCN (Logical Channel Number) or the corresponding LCN given a frequency for properly configured UHF NEXEDGE trunking systems. Note that this will not work for NEXEDGE systems operating on frequencies outside of the 450-465 MHz range. Also be aware that not all UHF NEXEDGE systems will neccessarily use this LCN numbering scheme as some systems employ custom channel maps.
+This Python script allows users to quickly determine the corresponding frequency given an LCN (Logical Channel Number) or the corresponding LCN given a frequency for properly configured UHF NEXEDGE trunking systems. Note that this will not work for NEXEDGE systems operating on frequencies outside of the 450-465 MHz range. Also be aware that not all UHF NEXEDGE systems will neccessarily use this LCN numbering scheme as some employ custom channel maps.
 
 Simply run the given python script and follow the displayed prompts.
 
